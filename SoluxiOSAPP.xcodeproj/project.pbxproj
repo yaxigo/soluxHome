@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					DDB4C1DF1EAE1D6000C37076 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CLUBTYZV34;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -272,7 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLUBTYZV34;
 				INFOPLIST_FILE = SoluxiOSAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = solex.SoluxiOSAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -283,7 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CLUBTYZV34;
 				INFOPLIST_FILE = SoluxiOSAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = solex.SoluxiOSAPP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
