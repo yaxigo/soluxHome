@@ -1,0 +1,25 @@
+//
+//  HttpRequestClass.m
+//  SoluxiOSAPP
+//
+//  Created by ZhangHao on 2017/4/24.
+//  Copyright © 2017年 ZhangHao. All rights reserved.
+//
+
+#import "HttpRequestClass.h"
+#import "RequestClass.h"
+
+@implementation HttpRequestClass
+
+
++ (void)httpPostWithParams:(NSDictionary *)params andTag:(NSString *)tag{
+    
+    
+    
+    
+}
+
+
+
+
+@end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7DB74A95C3E1EB6801E56B1C /* libPods-SoluxiOSAPP.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F0A4FCD1508FE24F3806461 /* libPods-SoluxiOSAPP.a */; };
 		DDB4C1E51EAE1D6000C37076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1E41EAE1D6000C37076 /* main.m */; };
 		DDB4C1E81EAE1D6000C37076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1E71EAE1D6000C37076 /* AppDelegate.m */; };
 		DDB4C1EB1EAE1D6000C37076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1EA1EAE1D6000C37076 /* ViewController.m */; };
@@ -14,9 +15,27 @@
 		DDB4C1F01EAE1D6000C37076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */; };
 		DDB4C1F31EAE1D6000C37076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */; };
 		DDB4C1FC1EAE243500C37076 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1FB1EAE243500C37076 /* BaseViewController.m */; };
+		DDB4C20B1EAE2AE800C37076 /* demo.html in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2061EAE2AE800C37076 /* demo.html */; };
+		DDB4C20C1EAE2AE800C37076 /* webfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2071EAE2AE800C37076 /* webfont.eot */; };
+		DDB4C20D1EAE2AE800C37076 /* webfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2081EAE2AE800C37076 /* webfont.svg */; };
+		DDB4C20E1EAE2AE800C37076 /* webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2091EAE2AE800C37076 /* webfont.ttf */; };
+		DDB4C20F1EAE2AE800C37076 /* webfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C20A1EAE2AE800C37076 /* webfont.woff */; };
+		DDB4C2151EAE32C000C37076 /* iconfont.css in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2101EAE32C000C37076 /* iconfont.css */; };
+		DDB4C2161EAE32C000C37076 /* iconfont.eot in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2111EAE32C000C37076 /* iconfont.eot */; };
+		DDB4C2171EAE32C000C37076 /* iconfont.svg in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2121EAE32C000C37076 /* iconfont.svg */; };
+		DDB4C2181EAE32C000C37076 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2131EAE32C000C37076 /* iconfont.ttf */; };
+		DDB4C2191EAE32C000C37076 /* iconfont.woff in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C2141EAE32C000C37076 /* iconfont.woff */; };
+		DDB4C2201EAE330F00C37076 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C21B1EAE330F00C37076 /* TBCityIconFont.m */; };
+		DDB4C2211EAE330F00C37076 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C21D1EAE330F00C37076 /* TBCityIconInfo.m */; };
+		DDB4C2221EAE330F00C37076 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C21F1EAE330F00C37076 /* UIImage+TBCityIconFont.m */; };
+		DDB4C2261EAE361C00C37076 /* RequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C2251EAE361C00C37076 /* RequestClass.m */; };
+		DDB4C2291EAE375800C37076 /* HttpRequestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C2281EAE375800C37076 /* HttpRequestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F0A4FCD1508FE24F3806461 /* libPods-SoluxiOSAPP.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SoluxiOSAPP.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3644154F7A01043C59A56D5A /* Pods-SoluxiOSAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoluxiOSAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-SoluxiOSAPP/Pods-SoluxiOSAPP.release.xcconfig"; sourceTree = "<group>"; };
+		DBE972F41248079FCC29213C /* Pods-SoluxiOSAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SoluxiOSAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SoluxiOSAPP/Pods-SoluxiOSAPP.debug.xcconfig"; sourceTree = "<group>"; };
 		DDB4C1E01EAE1D6000C37076 /* SoluxiOSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoluxiOSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDB4C1E41EAE1D6000C37076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DDB4C1E61EAE1D6000C37076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +48,28 @@
 		DDB4C1F41EAE1D6000C37076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DDB4C1FA1EAE243500C37076 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BaseClass/BaseViewController.h; sourceTree = "<group>"; };
 		DDB4C1FB1EAE243500C37076 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BaseClass/BaseViewController.m; sourceTree = "<group>"; };
+		DDB4C2031EAE266700C37076 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DDB4C2041EAE26AF00C37076 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DDB4C2061EAE2AE800C37076 /* demo.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = demo.html; sourceTree = "<group>"; };
+		DDB4C2071EAE2AE800C37076 /* webfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = webfont.eot; sourceTree = "<group>"; };
+		DDB4C2081EAE2AE800C37076 /* webfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = webfont.svg; sourceTree = "<group>"; };
+		DDB4C2091EAE2AE800C37076 /* webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = webfont.ttf; sourceTree = "<group>"; };
+		DDB4C20A1EAE2AE800C37076 /* webfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = webfont.woff; sourceTree = "<group>"; };
+		DDB4C2101EAE32C000C37076 /* iconfont.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = iconfont.css; sourceTree = "<group>"; };
+		DDB4C2111EAE32C000C37076 /* iconfont.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.eot; sourceTree = "<group>"; };
+		DDB4C2121EAE32C000C37076 /* iconfont.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = iconfont.svg; sourceTree = "<group>"; };
+		DDB4C2131EAE32C000C37076 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		DDB4C2141EAE32C000C37076 /* iconfont.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.woff; sourceTree = "<group>"; };
+		DDB4C21A1EAE330F00C37076 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		DDB4C21B1EAE330F00C37076 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		DDB4C21C1EAE330F00C37076 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		DDB4C21D1EAE330F00C37076 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		DDB4C21E1EAE330F00C37076 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		DDB4C21F1EAE330F00C37076 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
+		DDB4C2241EAE361C00C37076 /* RequestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestClass.h; sourceTree = "<group>"; };
+		DDB4C2251EAE361C00C37076 /* RequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestClass.m; sourceTree = "<group>"; };
+		DDB4C2271EAE375800C37076 /* HttpRequestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequestClass.h; sourceTree = "<group>"; };
+		DDB4C2281EAE375800C37076 /* HttpRequestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +77,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DB74A95C3E1EB6801E56B1C /* libPods-SoluxiOSAPP.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF2CF0F6EC49DD3B14356E09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F0A4FCD1508FE24F3806461 /* libPods-SoluxiOSAPP.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DDB4C1D71EAE1D6000C37076 = {
 			isa = PBXGroup;
 			children = (
 				DDB4C1E21EAE1D6000C37076 /* SoluxiOSAPP */,
 				DDB4C1E11EAE1D6000C37076 /* Products */,
+				FCE2FCDE15517606DAED9AD5 /* Pods */,
+				CF2CF0F6EC49DD3B14356E09 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,8 +117,18 @@
 				DDB4C1E71EAE1D6000C37076 /* AppDelegate.m */,
 				DDB4C1E91EAE1D6000C37076 /* ViewController.h */,
 				DDB4C1EA1EAE1D6000C37076 /* ViewController.m */,
+				DDB4C1FF1EAE261800C37076 /* MainClass */,
+				DDB4C1FD1EAE261800C37076 /* ClasssifyClass */,
+				DDB4C2021EAE261800C37076 /* SoluxClubClass */,
+				DDB4C2011EAE261800C37076 /* ShoppingCartClass */,
+				DDB4C2001EAE261800C37076 /* MySoluxClass */,
+				DDB4C2051EAE29E200C37076 /* iconFont */,
+				DDB4C2231EAE351D00C37076 /* RequestClass */,
+				DDB4C1FE1EAE261800C37076 /* FrameFile */,
 				DDB4C1FA1EAE243500C37076 /* BaseViewController.h */,
 				DDB4C1FB1EAE243500C37076 /* BaseViewController.m */,
+				DDB4C2031EAE266700C37076 /* Header.h */,
+				DDB4C2041EAE26AF00C37076 /* PrefixHeader.pch */,
 				DDB4C1EC1EAE1D6000C37076 /* Main.storyboard */,
 				DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */,
 				DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */,
@@ -84,6 +146,91 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		DDB4C1FD1EAE261800C37076 /* ClasssifyClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ClasssifyClass;
+			sourceTree = "<group>";
+		};
+		DDB4C1FE1EAE261800C37076 /* FrameFile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FrameFile;
+			sourceTree = "<group>";
+		};
+		DDB4C1FF1EAE261800C37076 /* MainClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainClass;
+			sourceTree = "<group>";
+		};
+		DDB4C2001EAE261800C37076 /* MySoluxClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MySoluxClass;
+			sourceTree = "<group>";
+		};
+		DDB4C2011EAE261800C37076 /* ShoppingCartClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ShoppingCartClass;
+			sourceTree = "<group>";
+		};
+		DDB4C2021EAE261800C37076 /* SoluxClubClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SoluxClubClass;
+			sourceTree = "<group>";
+		};
+		DDB4C2051EAE29E200C37076 /* iconFont */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4C21A1EAE330F00C37076 /* TBCityIconFont.h */,
+				DDB4C21B1EAE330F00C37076 /* TBCityIconFont.m */,
+				DDB4C21C1EAE330F00C37076 /* TBCityIconInfo.h */,
+				DDB4C21D1EAE330F00C37076 /* TBCityIconInfo.m */,
+				DDB4C21E1EAE330F00C37076 /* UIImage+TBCityIconFont.h */,
+				DDB4C21F1EAE330F00C37076 /* UIImage+TBCityIconFont.m */,
+				DDB4C2101EAE32C000C37076 /* iconfont.css */,
+				DDB4C2111EAE32C000C37076 /* iconfont.eot */,
+				DDB4C2121EAE32C000C37076 /* iconfont.svg */,
+				DDB4C2131EAE32C000C37076 /* iconfont.ttf */,
+				DDB4C2141EAE32C000C37076 /* iconfont.woff */,
+				DDB4C2061EAE2AE800C37076 /* demo.html */,
+				DDB4C2071EAE2AE800C37076 /* webfont.eot */,
+				DDB4C2081EAE2AE800C37076 /* webfont.svg */,
+				DDB4C2091EAE2AE800C37076 /* webfont.ttf */,
+				DDB4C20A1EAE2AE800C37076 /* webfont.woff */,
+			);
+			path = iconFont;
+			sourceTree = "<group>";
+		};
+		DDB4C2231EAE351D00C37076 /* RequestClass */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4C2241EAE361C00C37076 /* RequestClass.h */,
+				DDB4C2251EAE361C00C37076 /* RequestClass.m */,
+				DDB4C2271EAE375800C37076 /* HttpRequestClass.h */,
+				DDB4C2281EAE375800C37076 /* HttpRequestClass.m */,
+			);
+			path = RequestClass;
+			sourceTree = "<group>";
+		};
+		FCE2FCDE15517606DAED9AD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBE972F41248079FCC29213C /* Pods-SoluxiOSAPP.debug.xcconfig */,
+				3644154F7A01043C59A56D5A /* Pods-SoluxiOSAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DDB4C1F71EAE1D6000C37076 /* Build configuration list for PBXNativeTarget "SoluxiOSAPP" */;
 			buildPhases = (
+				5600D3DA3D9547A99805588E /* [CP] Check Pods Manifest.lock */,
 				DDB4C1DC1EAE1D6000C37076 /* Sources */,
 				DDB4C1DD1EAE1D6000C37076 /* Frameworks */,
 				DDB4C1DE1EAE1D6000C37076 /* Resources */,
+				FDF42C00BFF0FECE04C26F93 /* [CP] Embed Pods Frameworks */,
+				33160B2BEB7EF88D1BCF01AA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -143,7 +293,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB4C20D1EAE2AE800C37076 /* webfont.svg in Resources */,
+				DDB4C20F1EAE2AE800C37076 /* webfont.woff in Resources */,
+				DDB4C20E1EAE2AE800C37076 /* webfont.ttf in Resources */,
+				DDB4C2191EAE32C000C37076 /* iconfont.woff in Resources */,
+				DDB4C20C1EAE2AE800C37076 /* webfont.eot in Resources */,
 				DDB4C1F31EAE1D6000C37076 /* LaunchScreen.storyboard in Resources */,
+				DDB4C2171EAE32C000C37076 /* iconfont.svg in Resources */,
+				DDB4C2151EAE32C000C37076 /* iconfont.css in Resources */,
+				DDB4C2161EAE32C000C37076 /* iconfont.eot in Resources */,
+				DDB4C2181EAE32C000C37076 /* iconfont.ttf in Resources */,
+				DDB4C20B1EAE2AE800C37076 /* demo.html in Resources */,
 				DDB4C1F01EAE1D6000C37076 /* Assets.xcassets in Resources */,
 				DDB4C1EE1EAE1D6000C37076 /* Main.storyboard in Resources */,
 			);
@@ -151,15 +311,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33160B2BEB7EF88D1BCF01AA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoluxiOSAPP/Pods-SoluxiOSAPP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5600D3DA3D9547A99805588E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF42C00BFF0FECE04C26F93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SoluxiOSAPP/Pods-SoluxiOSAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DDB4C1DC1EAE1D6000C37076 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDB4C2261EAE361C00C37076 /* RequestClass.m in Sources */,
 				DDB4C1EB1EAE1D6000C37076 /* ViewController.m in Sources */,
 				DDB4C1FC1EAE243500C37076 /* BaseViewController.m in Sources */,
 				DDB4C1E81EAE1D6000C37076 /* AppDelegate.m in Sources */,
+				DDB4C2291EAE375800C37076 /* HttpRequestClass.m in Sources */,
+				DDB4C2201EAE330F00C37076 /* TBCityIconFont.m in Sources */,
 				DDB4C1E51EAE1D6000C37076 /* main.m in Sources */,
+				DDB4C2221EAE330F00C37076 /* UIImage+TBCityIconFont.m in Sources */,
+				DDB4C2211EAE330F00C37076 /* TBCityIconInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,9 +490,11 @@
 		};
 		DDB4C1F81EAE1D6000C37076 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBE972F41248079FCC29213C /* Pods-SoluxiOSAPP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CLUBTYZV34;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SoluxiOSAPP/PrefixHeader.pch";
 				INFOPLIST_FILE = SoluxiOSAPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -290,9 +505,11 @@
 		};
 		DDB4C1F91EAE1D6000C37076 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3644154F7A01043C59A56D5A /* Pods-SoluxiOSAPP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CLUBTYZV34;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/SoluxiOSAPP/PrefixHeader.pch";
 				INFOPLIST_FILE = SoluxiOSAPP/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -320,6 +537,7 @@
 				DDB4C1F91EAE1D6000C37076 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
