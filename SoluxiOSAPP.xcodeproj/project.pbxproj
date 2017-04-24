@@ -13,6 +13,7 @@
 		DDB4C1EE1EAE1D6000C37076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1EC1EAE1D6000C37076 /* Main.storyboard */; };
 		DDB4C1F01EAE1D6000C37076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */; };
 		DDB4C1F31EAE1D6000C37076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */; };
+		DDB4C1FC1EAE243500C37076 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1FB1EAE243500C37076 /* BaseViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DDB4C1F21EAE1D6000C37076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DDB4C1F41EAE1D6000C37076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB4C1FA1EAE243500C37076 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = BaseClass/BaseViewController.h; sourceTree = "<group>"; };
+		DDB4C1FB1EAE243500C37076 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = BaseClass/BaseViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				DDB4C1E71EAE1D6000C37076 /* AppDelegate.m */,
 				DDB4C1E91EAE1D6000C37076 /* ViewController.h */,
 				DDB4C1EA1EAE1D6000C37076 /* ViewController.m */,
+				DDB4C1FA1EAE243500C37076 /* BaseViewController.h */,
+				DDB4C1FB1EAE243500C37076 /* BaseViewController.m */,
 				DDB4C1EC1EAE1D6000C37076 /* Main.storyboard */,
 				DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */,
 				DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDB4C1EB1EAE1D6000C37076 /* ViewController.m in Sources */,
+				DDB4C1FC1EAE243500C37076 /* BaseViewController.m in Sources */,
 				DDB4C1E81EAE1D6000C37076 /* AppDelegate.m in Sources */,
 				DDB4C1E51EAE1D6000C37076 /* main.m in Sources */,
 			);
