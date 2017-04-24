@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDB4C1E51EAE1D6000C37076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1E41EAE1D6000C37076 /* main.m */; };
+		DDB4C1E81EAE1D6000C37076 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1E71EAE1D6000C37076 /* AppDelegate.m */; };
+		DDB4C1EB1EAE1D6000C37076 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDB4C1EA1EAE1D6000C37076 /* ViewController.m */; };
+		DDB4C1EE1EAE1D6000C37076 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1EC1EAE1D6000C37076 /* Main.storyboard */; };
+		DDB4C1F01EAE1D6000C37076 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */; };
+		DDB4C1F31EAE1D6000C37076 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DDB4C1E01EAE1D6000C37076 /* SoluxiOSAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoluxiOSAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB4C1E41EAE1D6000C37076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DDB4C1E61EAE1D6000C37076 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DDB4C1E71EAE1D6000C37076 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DDB4C1E91EAE1D6000C37076 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DDB4C1EA1EAE1D6000C37076 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DDB4C1ED1EAE1D6000C37076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB4C1F21EAE1D6000C37076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB4C1F41EAE1D6000C37076 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB4C1DD1EAE1D6000C37076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDB4C1D71EAE1D6000C37076 = {
+			isa = PBXGroup;
+			children = (
+				DDB4C1E21EAE1D6000C37076 /* SoluxiOSAPP */,
+				DDB4C1E11EAE1D6000C37076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB4C1E11EAE1D6000C37076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4C1E01EAE1D6000C37076 /* SoluxiOSAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB4C1E21EAE1D6000C37076 /* SoluxiOSAPP */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4C1E61EAE1D6000C37076 /* AppDelegate.h */,
+				DDB4C1E71EAE1D6000C37076 /* AppDelegate.m */,
+				DDB4C1E91EAE1D6000C37076 /* ViewController.h */,
+				DDB4C1EA1EAE1D6000C37076 /* ViewController.m */,
+				DDB4C1EC1EAE1D6000C37076 /* Main.storyboard */,
+				DDB4C1EF1EAE1D6000C37076 /* Assets.xcassets */,
+				DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */,
+				DDB4C1F41EAE1D6000C37076 /* Info.plist */,
+				DDB4C1E31EAE1D6000C37076 /* Supporting Files */,
+			);
+			path = SoluxiOSAPP;
+			sourceTree = "<group>";
+		};
+		DDB4C1E31EAE1D6000C37076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DDB4C1E41EAE1D6000C37076 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB4C1DF1EAE1D6000C37076 /* SoluxiOSAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB4C1F71EAE1D6000C37076 /* Build configuration list for PBXNativeTarget "SoluxiOSAPP" */;
+			buildPhases = (
+				DDB4C1DC1EAE1D6000C37076 /* Sources */,
+				DDB4C1DD1EAE1D6000C37076 /* Frameworks */,
+				DDB4C1DE1EAE1D6000C37076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoluxiOSAPP;
+			productName = SoluxiOSAPP;
+			productReference = DDB4C1E01EAE1D6000C37076 /* SoluxiOSAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB4C1D81EAE1D6000C37076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZhangHao;
+				TargetAttributes = {
+					DDB4C1DF1EAE1D6000C37076 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DDB4C1DB1EAE1D6000C37076 /* Build configuration list for PBXProject "SoluxiOSAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB4C1D71EAE1D6000C37076;
+			productRefGroup = DDB4C1E11EAE1D6000C37076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB4C1DF1EAE1D6000C37076 /* SoluxiOSAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB4C1DE1EAE1D6000C37076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB4C1F31EAE1D6000C37076 /* LaunchScreen.storyboard in Resources */,
+				DDB4C1F01EAE1D6000C37076 /* Assets.xcassets in Resources */,
+				DDB4C1EE1EAE1D6000C37076 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB4C1DC1EAE1D6000C37076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB4C1EB1EAE1D6000C37076 /* ViewController.m in Sources */,
+				DDB4C1E81EAE1D6000C37076 /* AppDelegate.m in Sources */,
+				DDB4C1E51EAE1D6000C37076 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDB4C1EC1EAE1D6000C37076 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB4C1ED1EAE1D6000C37076 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB4C1F11EAE1D6000C37076 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB4C1F21EAE1D6000C37076 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB4C1F51EAE1D6000C37076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DDB4C1F61EAE1D6000C37076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB4C1F81EAE1D6000C37076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoluxiOSAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = solex.SoluxiOSAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DDB4C1F91EAE1D6000C37076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SoluxiOSAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = solex.SoluxiOSAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB4C1DB1EAE1D6000C37076 /* Build configuration list for PBXProject "SoluxiOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB4C1F51EAE1D6000C37076 /* Debug */,
+				DDB4C1F61EAE1D6000C37076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB4C1F71EAE1D6000C37076 /* Build configuration list for PBXNativeTarget "SoluxiOSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB4C1F81EAE1D6000C37076 /* Debug */,
+				DDB4C1F91EAE1D6000C37076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDB4C1D81EAE1D6000C37076 /* Project object */;
+}
